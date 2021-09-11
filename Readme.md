@@ -4,6 +4,7 @@
 - [1. 위치정보를 주기적으로 알려주는 안드로이드 앱](#1)
 - [2. Java SDK(TCP)를 사용하여 IoTMakers와 안드로이드 앱 연동하기](#2)
 - [3. 안드로이드 디바이스의 다양한 센서 추가 실습](#3)
+- [**예제  프로젝트 다운로드 링크**](https://github.com/kwanulee/AndroidIoTMakerApp.git)
 
 ---
 <a name="1"></a>
@@ -11,7 +12,7 @@
 
 ### 1.1 안드로이드 앱 프로젝트 생성
 
-1. Android Studio에서 새로운 안드로이드 앱 프로젝트 (*AndroidIoTMakersApp*) 생성 
+1. **Android Studio**에서 새로운 안드로이드 앱 프로젝트 (*AndroidIoTMakersApp*) 생성 
 2. 현재 생성된 앱 프로젝트에서 사용할 SDK 버전을 29로 설정 (이 버전에서 안전하게 동작함을 보장하기 위함)
 	- build.gradle (Module:app) 파일 오픈하여 **compileSdk** 와 **targetSdk**를 29로 설정
 
@@ -28,7 +29,7 @@
 	}
 	```
 2. **Google Play Services** 라이브러리 추가
-	- 전제조건: **Google Play services** SDK가 설치되어 있어야 함 (참고, https://kwanulee.github.io/AndroidProgramming/location_map/location.html#1)
+	- 전제조건: **Google Play services** SDK가 설치되어 있어야 함 ([참고자료](https://kwanulee.github.io/AndroidProgramming/location_map/location.html#1))
 
 	- build.gradle (Module:app) 파일 오픈하고 다음과 같은 새로운 빌드 규칙 추가
 	
@@ -241,8 +242,7 @@ public class MainActivity extends AppCompatActivity {
 ## 2. Java SDK(TCP)를 사용하여 IoTMakers와 안드로이드 앱 연동하기
 
 ### 2.1 디바이스 등록
-1. IoTMakers에 접속해서 디바이스를 등록 해 보자.
-	- http://iotmakers.kt.com/openp/index.html#/device/regist
+1. [IoTMakers에 접속](http://iotmakers.kt.com/openp/index.html#/device/regist)해서 디바이스를 등록 해 보자.
 	- [**IoT개발**]-[**나의 디바이스**] 화면에서 **디바이스 등록** 버튼 클릭
 
 	![](http://iotmakers.kt.com/share/file/blog/201601/12/16011217155905.png)
