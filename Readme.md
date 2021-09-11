@@ -300,7 +300,7 @@ Android Studio에서 JAVA SDK를 이용하여 IoTMakers에 연결 할 Android �
 	}
 	```
 
-	<img src="figures/iotmakers-java-sdk-setting.PNG" width=600>
+	<img src="figures/iotmakers-java-sdk-setting.png" width=600>
 
 
 3. 의존성 라이브러리 내 중복 파일이 빌드되는 것을 막기 위해 build.gradle 파일에 다음 스크립트를 아래 그림과 같이 추가하자.
